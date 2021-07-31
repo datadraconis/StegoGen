@@ -5,7 +5,7 @@
 # Author: datadraconis
 
 # Generate flag content
-TEXT=$(python3 flagGen.py 3 wordlist.txt)
+TEXT=$(python3 flagGen.py 3 words.txt)
 
 FLAG="{$TEXT}"
 
