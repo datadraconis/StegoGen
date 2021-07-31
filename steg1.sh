@@ -12,7 +12,7 @@ FLAG="{$TEXT}"
 # Generate flag text file
 echo "$FLAG" > tmp.txt
 
-# Generate stego image using steghide
+# Generate stego image using steghide- you can modify your image file to use the name provided here or modify the code to fit the name of your image.
 
 steghide embed -cf image.jpeg -ef tmp.txt -sf stego1.jpeg
 
